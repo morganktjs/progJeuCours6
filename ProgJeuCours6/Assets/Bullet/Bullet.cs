@@ -29,7 +29,6 @@ public class Bullet : MonoBehaviour
         if (damageableObject != null)
         {
             damageableObject.TakeDamage(1);
-            Debug.Log("ca trigger");
         }
     }
 }

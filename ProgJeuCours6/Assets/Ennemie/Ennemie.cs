@@ -8,6 +8,7 @@ public class Ennemie : MonoBehaviour, Damageable
     private Rigidbody myRigidBody;
     void Start()
     {
+        myRigidBody = GetComponent<Rigidbody>();
         player = GameObject.FindGameObjectWithTag("Player");
     }
 
@@ -20,7 +21,6 @@ public class Ennemie : MonoBehaviour, Damageable
     {
         Destroy(gameObject);
     }
-
     public void TakeDamage(int damage)
     {
         Die();
