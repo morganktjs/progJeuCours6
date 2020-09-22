@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1465144874028086385}
   - component: {fileID: 7868783221550737819}
   - component: {fileID: 5135336949842646903}
+  - component: {fileID: -1375734605013086108}
   m_Layer: 0
   m_Name: Ennemie
   m_TagString: Untagged
@@ -110,3 +111,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &-1375734605013086108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2721556407105942649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41743cf734dff1048910197a7ced5c76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioMusic: {fileID: 11400000, guid: 27b8237fbccb1af4493432575232ba51, type: 2}
+  deathParticle: {fileID: 2330374461084444126, guid: 470bc0557d3278142a4ca1c12444a549,
+    type: 3}
